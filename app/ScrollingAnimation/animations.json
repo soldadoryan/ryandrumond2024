@@ -1,0 +1,162 @@
+{
+  "scrollIndicator": {
+    "data-animation": "bottom",
+    "data-anim-start": "0",
+    "data-anim-end": "500",
+    "data-anim-startvalue": "5",
+    "data-anim-endvalue": "-100",
+    "data-anim-unit": "vh",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "bgBanner": {
+    "data-animation": "left",
+    "data-anim-start": "1000",
+    "data-anim-end": "1500",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "vw",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "filterBgBanner": {
+    "data-animation": "left",
+    "data-anim-start": "1500",
+    "data-anim-end": "2000",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "vw",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "aboutSection": {
+    "data-animation": "bottom",
+    "data-anim-start": "3000",
+    "data-anim-end": "3750",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "vh",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "aboutComponents": {
+    "data-animation": "opacity",
+    "data-anim-start": "3750",
+    "data-anim-end": "4500",
+    "data-anim-startvalue": "0",
+    "data-anim-endvalue": "1",
+    "data-anim-unit": "",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "skillsSection": {
+    "data-animation": "bottom",
+    "data-anim-start": "5500",
+    "data-anim-end": "6250",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "-2",
+    "data-anim-unit": "vh",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "skillsBackground": {
+    "data-animation": "transform",
+    "data-anim-start": "6250",
+    "data-anim-end": "7000",
+    "data-anim-startvalue": "1",
+    "data-anim-endvalue": "50",
+    "data-anim-unit": "",
+    "data-anim-prefixvalue": "scale(",
+    "data-anim-sufixvalue": ")"
+  },
+  "skillsContent": {
+    "data-animation": "top",
+    "data-anim-start": "7000",
+    "data-anim-end": "7750",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "vh",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsBgTop": {
+    "data-animation": "left",
+    "data-anim-start": "8750",
+    "data-anim-end": "9500",
+    "data-anim-startvalue": "-220",
+    "data-anim-endvalue": "-10",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsBgBottom": {
+    "data-animation": "right",
+    "data-anim-start": "8750",
+    "data-anim-end": "9500",
+    "data-anim-startvalue": "-220",
+    "data-anim-endvalue": "-10",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsTitleTop": {
+    "data-animation": "left",
+    "data-anim-start": "9500",
+    "data-anim-end": "10250",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsTitleBottom": {
+    "data-animation": "right",
+    "data-anim-start": "9500",
+    "data-anim-end": "10250",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsList": {
+    "data-animation": "opacity",
+    "data-anim-start": "11250",
+    "data-anim-end": "12000",
+    "data-anim-startvalue": "0",
+    "data-anim-endvalue": "1",
+    "data-anim-unit": "",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsItems": {
+    "data-animation": "left",
+    "data-anim-start": "13000",
+    "data-anim-end": "13750",
+    "data-anim-startvalue": "0",
+    "data-anim-endvalue": "-400",
+    "data-anim-unit": "px",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "backdropContact": {
+    "data-animation": "left",
+    "data-anim-start": "14750",
+    "data-anim-end": "15500",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "contact": {
+    "data-animation": "left",
+    "data-anim-start": "15500",
+    "data-anim-end": "16250",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  }
+}
