@@ -11,7 +11,7 @@ function Banner() {
         {...Animations.filterBgBanner}
       ></div>
       <main className={styles.mainContent}>
-        <Image src="/assets/logo.webp" width="300" height="157" />
+        <Image className={styles.logo} src="/assets/logo.webp" width="300" height="157" />
         <h1 className={styles.title}>Ryan</h1>
         <h2 className={styles.subtitle}>DESENVOLVEDOR FRONT-END / MOBILE</h2>
         <div className={styles.scrollIndicator} {...Animations.scrollIndicator}>

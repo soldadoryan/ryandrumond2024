@@ -95,3 +95,14 @@
   position: absolute;
   animation: scrolling normal infinite 1.2s;
 }
+
+@media screen and (max-width: 425px) {
+  .logo {
+    width: 200px;
+    height: 107px;
+  }
+
+  .subtitle {
+    font-size: 0.6rem;
+  }
+}

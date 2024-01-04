@@ -8,15 +8,6 @@
   transform: skewX(-20deg);
 }
 
-.ioasysImage {
-  position: absolute;
-  top: 1vh;
-  right: 10%;
-  z-index: 1;
-  opacity: 0;
-  transform: rotate(25deg);
-}
-
 .bgBottom {
   position: fixed;
   bottom: 0;
@@ -234,3 +225,58 @@
     min-width: 100%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .titleTop {
+    font-size: 2rem;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .titleBottom {
+    width: 100%;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .bgTop {
+    transform: skew(-10deg);
+  }
+
+  .bgBottom {
+    transform: skew(-10deg);
+  }
+}
+
+/* .titleTop {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 9rem;
+  color: var(--shape);
+  padding-left: 10rem;
+}
+
+.titleBottom {
+  position: fixed;
+  bottom: 0;
+  right: -100%;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 9rem;
+  color: var(--shape);
+  padding-right: 10rem;
+} */

@@ -86,3 +86,44 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .aboutContent {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .aboutTitle {
+    font-size: 1.5rem;
+  }
+
+  .aboutSubtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .aboutParagraph {
+    line-height: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutContent {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .aboutTitle {
+    font-size: 1rem;
+  }
+
+  .aboutSubtitle {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .aboutParagraph {
+    font-size: 0.7rem;
+    line-height: normal;
+  }
+}

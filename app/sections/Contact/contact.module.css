@@ -117,3 +117,24 @@
 .loadingIcon {
   animation: rotate 1s linear infinite;
 }
+
+@media screen and (max-width: 425px) {
+  .form {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .form {
+    gap: 0.5rem;
+  }
+
+  .form p {
+    font-size: 0.8rem;
+  }
+
+  .form input {
+    height: 2rem;
+  }
+}
