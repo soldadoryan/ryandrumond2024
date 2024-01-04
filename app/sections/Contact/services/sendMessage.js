@@ -6,7 +6,8 @@ const ubuntu = Ubuntu({
   weight: ["300", "400", "500", "700"],
 });
 
-export const handleSendMessage = async (data) => {
+export const handleSendMessage = async (data, setLoading) => {
+  setLoading(true);
   const webhookUrl =
     "https://discord.com/api/webhooks/1192110103319543880/hZGFLogvSaX3BAbV6rPzMwPtfC82OlQB_S-MtFNwN6yuuQVnPh-30n69QFjpnNgKyXok";
 
@@ -48,10 +49,12 @@ export const handleSendMessage = async (data) => {
     });
 
     if (response.ok) {
+      setLoading(false);
       toast("Mensagem enviada com sucesso!", {
         className: ubuntu.className,
       });
     } else {
+      setLoading(false);
       toast("❌ Falha ao enviar mensagem!", {
         className: ubuntu.className,
       });

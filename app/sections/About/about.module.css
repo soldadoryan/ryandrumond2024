@@ -47,3 +47,42 @@
   text-decoration: none;
   color: var(--shape);
 }
+
+@media screen and (max-width: 1440px) {
+  .about {
+    gap: 2rem;
+  }
+
+  .aboutImage {
+    width: 400px;
+    height: 532px;
+  }
+
+  .aboutContent {
+    width: 55rem;
+  }
+
+  .aboutParagraph {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutTitle {
+    font-size: 3rem;
+  }
+
+  .aboutSubtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutContent {
+    width: 90%;
+  }
+}

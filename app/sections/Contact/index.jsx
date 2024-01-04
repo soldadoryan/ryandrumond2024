@@ -1,12 +1,13 @@
 "use client";
 import styles from "./contact.module.css";
 import Animations from "@/app/ScrollingAnimation/animations.json";
-import { RiSendPlaneFill } from "react-icons/ri";
+import { RiSendPlaneFill, RiLoader2Fill } from "react-icons/ri";
 import { useForm, Controller } from "react-hook-form";
 import { handleSendMessage } from "./services/sendMessage";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import PhoneInput from "./PhoneInput";
+import { useState } from "react";
 
 const schema = yup.object({
   name: yup.string().required("Preencha com seu nome!"),
@@ -16,11 +17,14 @@ const schema = yup.object({
 });
 
 function Contact() {
+  const [loading, setLoading] = useState(false);
+
   const {
     register,
     handleSubmit,
     setValue,
     control,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(schema),
@@ -35,7 +39,15 @@ function Contact() {
       <section className={styles.contact} {...Animations.contact}>
         <form
           className={styles.form}
-          onSubmit={handleSubmit(handleSendMessage)}
+          onSubmit={handleSubmit((data) => {
+            handleSendMessage(data, setLoading);
+            reset({
+              name: "",
+              mail: "",
+              phone: "",
+              message: "",
+            });
+          })}
         >
           <h2>Entre em contato!</h2>
           <p>
@@ -61,8 +73,17 @@ function Contact() {
           <label>Mensagem *</label>
           <textarea rows={5} {...register("message")}></textarea>
           <span className={styles.errorMessage}>{errors.message?.message}</span>
-          <button type="submit">
-            <RiSendPlaneFill /> Enviar mensagem
+          <button type="submit" disabled={loading}>
+            {loading && (
+              <div className={styles.loadingIcon}>
+                <RiLoader2Fill />
+              </div>
+            )}
+            {!loading && (
+              <>
+                <RiSendPlaneFill /> Enviar mensagem
+              </>
+            )}
           </button>
         </form>
       </section>

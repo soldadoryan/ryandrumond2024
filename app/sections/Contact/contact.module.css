@@ -87,7 +87,7 @@
   border: 1px solid var(--shape);
 }
 
-.form button[type="submit"]:hover {
+.form button[type="submit"][disabled="false"]:hover {
   background-color: var(--background-primary);
   color: var(--shape);
   border-color: rgba(255, 255, 255, 0.1);
@@ -103,4 +103,17 @@
   letter-spacing: 1px;
   color: var(--error-text);
   text-transform: uppercase;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingIcon {
+  animation: rotate 1s linear infinite;
 }

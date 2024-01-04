@@ -16,7 +16,7 @@
   padding: 0.5rem 1rem;
   border-radius: 10px;
   transition: background-color 0.5s;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .socialItem:hover {
@@ -24,7 +24,7 @@
 }
 
 .wrapIcon {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
   width: 3.1rem;
   height: 3.1rem;
   color: var(--shape);

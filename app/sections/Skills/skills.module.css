@@ -37,7 +37,7 @@
 }
 
 .wrapSkills h3 {
-  width: 50rem;
+  width: 100%;
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -45,7 +45,7 @@
 }
 
 .paragraph {
-  width: 50rem;
+  width: 100%;
   list-style: none;
   font-size: 1.2rem;
   line-height: 2rem;
@@ -56,7 +56,7 @@
 .skillsBars {
   list-style: none;
   padding: 0;
-  width: 50rem;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -86,4 +86,16 @@
 
 .btnResume svg {
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contentSkills {
+    width: 90%;
+  }
 }

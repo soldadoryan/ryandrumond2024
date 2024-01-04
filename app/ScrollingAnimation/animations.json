@@ -134,8 +134,18 @@
     "data-anim-start": "13000",
     "data-anim-end": "13750",
     "data-anim-startvalue": "0",
-    "data-anim-endvalue": "-400",
-    "data-anim-unit": "px",
+    "data-anim-endvalue": "-70",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "projectsItemsMobile": {
+    "data-animation": "left",
+    "data-anim-start": "13000",
+    "data-anim-end": "13750",
+    "data-anim-startvalue": "0",
+    "data-anim-endvalue": "-325",
+    "data-anim-unit": "%",
     "data-anim-prefixvalue": "",
     "data-anim-sufixvalue": ""
   },
