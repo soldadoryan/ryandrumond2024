@@ -21,13 +21,6 @@ function ScrollingAnimation() {
       const currentPercent = getCurrentPercent(scroll, start, end);
       const currentAnimationValue =
         (currentPercent / 100) * (+endvalue - +startvalue);
-      console.log(
-        attribute,
-        `
-          ${prefixvalue}${
-          currentAnimationValue + +startvalue
-        }${sufixvalue}${unit}`
-      );
       el.style[attribute] = `
           ${prefixvalue}${
         currentAnimationValue + +startvalue
