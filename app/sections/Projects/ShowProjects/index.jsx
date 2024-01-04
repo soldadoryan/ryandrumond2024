@@ -6,7 +6,7 @@ function ShowProjects() {
   return (
     <>
       {projectsList.map((project) => (
-        <li className={styles.projectItem}>
+        <li key={project.customer} className={styles.projectItem}>
           <Image
             src={`/assets/${project.customer}.webp`}
             fill={true}

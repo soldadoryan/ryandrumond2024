@@ -28,10 +28,14 @@ function Skills() {
             <SkillBar label="Desenvolvimento Back-end" value={70} />
             <SkillBar label="Comunicação" value={80} />
           </ul>
-          <button className={styles.btnResume}>
+          <a
+            href="/assets/ryan_drumond_2024.pdf"
+            target="_blank"
+            className={styles.btnResume}
+          >
             <RiAttachment2 />
             Baixar currículo
-          </button>
+          </a>
         </div>
       </div>
     </section>

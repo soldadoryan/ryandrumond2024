@@ -119,6 +119,16 @@
     "data-anim-prefixvalue": "",
     "data-anim-sufixvalue": ""
   },
+  "wrapSectionProjects": {
+    "data-animation": "left",
+    "data-anim-start": "11250",
+    "data-anim-end": "11251",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
   "projectsList": {
     "data-animation": "opacity",
     "data-anim-start": "11250",

@@ -14,19 +14,21 @@ function Projects() {
       <div className={styles.titleBottom} {...Animations.projectsTitleBottom}>
         Importantes
       </div>
-      <section className={styles.projects} {...Animations.projectsList}>
-        <div className={styles.wrapProjectList}>
-          <ul className={styles.projectsList} {...Animations.projectsItems}>
-            <ShowProjects />
-          </ul>
-          <ul
-            className={`${styles.projectsListMobile} ${styles.projectsList}`}
-            {...Animations.projectsItemsMobile}
-          >
-            <ShowProjects />
-          </ul>
-        </div>
-      </section>
+      <div className={styles.wrapSection} {...Animations.wrapSectionProjects}>
+        <section className={styles.projects} {...Animations.projectsList}>
+          <div className={styles.wrapProjectList}>
+            <ul className={styles.projectsList} {...Animations.projectsItems}>
+              <ShowProjects />
+            </ul>
+            <ul
+              className={`${styles.projectsListMobile} ${styles.projectsList}`}
+              {...Animations.projectsItemsMobile}
+            >
+              <ShowProjects />
+            </ul>
+          </div>
+        </section>
+      </div>
     </>
   );
 }
