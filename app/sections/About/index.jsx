@@ -10,8 +10,8 @@ function About() {
         src="/assets/me.webp"
         title="Ryan Drumond"
         alt="Foto de Ryan Drumond de frente olhando para a câmera sorrindo com uma camisa preta"
-        width="500"
-        height="666"
+        width="525"
+        height="700"
         className={styles.aboutImage}
         {...Animations.aboutComponents}
       />
