@@ -61,24 +61,28 @@ function Contact() {
             </a>
             .
           </p>
-          <label>Nome *</label>
-          <input {...register("name")} />
+          <label for="input_name">Nome *</label>
+          <input id="input_name" {...register("name")} />
           <span className={styles.errorMessage}>{errors.name?.message}</span>
-          <label>E-mail *</label>
-          <input {...register("mail")} />
+          <label for="input_mail">E-mail *</label>
+          <input id="input_mail" {...register("mail")} />
           <span className={styles.errorMessage}>{errors.mail?.message}</span>
-          <label>Telefone *</label>
+          <label for="input_phone">Telefone *</label>
           <Controller
             defaultValue=""
             name="phone"
             control={control}
             render={({ field }) => (
-              <PhoneInput setValue={setValue} {...field} />
+              <PhoneInput setValue={setValue} {...field} id="input_phone" />
             )}
           />
           <span className={styles.errorMessage}>{errors.phone?.message}</span>
-          <label>Mensagem *</label>
-          <textarea rows={5} {...register("message")}></textarea>
+          <label for="input_message">Mensagem *</label>
+          <textarea
+            id="input_message"
+            rows={5}
+            {...register("message")}
+          ></textarea>
           <span className={styles.errorMessage}>{errors.message?.message}</span>
           <button type="submit" disabled={loading}>
             {loading && (
