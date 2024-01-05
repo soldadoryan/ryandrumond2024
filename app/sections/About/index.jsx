@@ -8,6 +8,8 @@ function About() {
     <section className={styles.about} {...Animations.aboutSection}>
       <Image
         src="/assets/me.webp"
+        title="Ryan Drumond"
+        alt="Foto de Ryan Drumond de frente olhando para a câmera sorrindo com uma camisa preta"
         width="500"
         height="666"
         className={styles.aboutImage}

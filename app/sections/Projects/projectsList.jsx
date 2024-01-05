@@ -10,6 +10,12 @@ export const projectsList = [
         <b>como desenvolvedor front-end da ioasys</b>
       </>
     ),
+    titleBg: "Wallpaper Alpargatas",
+    altBg:
+      "Uma parede com várias sandalhas Havaianas encostadas de múltiplas cores",
+    titleLogo: "Logo Alpargatas",
+    altLogo:
+      "Logo da Alpargatas com vários triângulos coloridos com a palavra alpargatas escrita em cinza",
   },
   {
     customer: "cvc",
@@ -22,6 +28,10 @@ export const projectsList = [
         <b>como desenvolvedor front-end da ioasys</b>.
       </>
     ),
+    titleBg: "CVC Wallpaper",
+    altBg: "Um avião no pôr do sol decolando",
+    titleLogo: "Logo CVC",
+    altLogo: "Logo da CVC com círculos azuis em volta das letras C, V e C",
   },
   {
     customer: "suvinil",
@@ -34,6 +44,12 @@ export const projectsList = [
         <b>como desenvolvedor front-end da ioasys</b>.
       </>
     ),
+    titleBg: "Suvinil Wallpaper",
+    altBg:
+      "Um pintor segurando um rolo de tinta e de capacete pintando uma parede",
+    titleLogo: "Logo suvinil",
+    altLogo:
+      "Logo da suvinil com 2 quadrados coloridos ao lado da palavra suvinil",
   },
   {
     customer: "cotemig",
@@ -45,5 +61,11 @@ export const projectsList = [
         alunos e professores como trabalho de conclusão de curso.
       </>
     ),
+    titleBg: "Cotemig Wallpaper",
+    altBg:
+      "Um professor dando aula para vários alunos sentados nas suas cadeiras",
+    titleLogo: "Logo Cotemig",
+    altLogo:
+      "Logo do COTEMIG com vários circulos à esquerda e a palavra COTEMIG escrita à direita",
   },
 ];

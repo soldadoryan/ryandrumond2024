@@ -8,12 +8,16 @@ function ShowProjects() {
       {projectsList.map((project) => (
         <li key={project.customer} className={styles.projectItem}>
           <Image
+            title={project.titleBg}
+            alt={project.altBg}
             src={`/assets/${project.customer}.webp`}
             fill={true}
             className={styles.projectItemImage}
           />
           <div className={styles.projectItemFilter}>
             <Image
+              title={project.titleLogo}
+              alt={project.altLogo}
               src={`/assets/${project.customer}-logo.webp`}
               width="300"
               height="300"
