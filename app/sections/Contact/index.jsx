@@ -67,13 +67,13 @@ function Contact() {
           <label for="input_mail">E-mail *</label>
           <input id="input_mail" {...register("mail")} />
           <span className={styles.errorMessage}>{errors.mail?.message}</span>
-          <label for="input_phone">Telefone *</label>
+          <label for="phone_input">Telefone *</label>
           <Controller
             defaultValue=""
             name="phone"
             control={control}
             render={({ field }) => (
-              <PhoneInput setValue={setValue} {...field} id="input_phone" />
+              <PhoneInput setValue={setValue} {...field} />
             )}
           />
           <span className={styles.errorMessage}>{errors.phone?.message}</span>
