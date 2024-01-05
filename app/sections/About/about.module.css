@@ -11,7 +11,7 @@
 }
 
 .aboutImage {
-  border: 10px solid var(--shape);
+  /* border: 10px solid var(--shape); */
   filter: grayscale(0.7);
 }
 
