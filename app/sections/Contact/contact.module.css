@@ -37,6 +37,11 @@
   margin-bottom: 1rem;
 }
 
+.form p a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
 .form label {
   color: var(--shape);
   text-transform: uppercase;

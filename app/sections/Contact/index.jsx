@@ -52,7 +52,14 @@ function Contact() {
           <h2>Entre em contato!</h2>
           <p>
             Gostou do meu trabalho e gostaria de entrar em contato? Utilize o
-            formulário abaixo ou me chame no <a href="">WhatsApp</a>:
+            formulário abaixo ou me chame no{" "}
+            <a
+              href="https://api.whatsapp.com/send?phone=5531992547014"
+              target="_blank"
+            >
+              WhatsApp
+            </a>
+            .
           </p>
           <label>Nome *</label>
           <input {...register("name")} />
