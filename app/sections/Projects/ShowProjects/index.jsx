@@ -11,7 +11,8 @@ function ShowProjects() {
             title={project.titleBg}
             alt={project.altBg}
             src={`/assets/${project.customer}.webp`}
-            fill={true}
+            fill
+            sizes="100%"
             className={styles.projectItemImage}
           />
           <div className={styles.projectItemFilter}>

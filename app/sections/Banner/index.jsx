@@ -18,6 +18,7 @@ function Banner() {
           src="/assets/logo.webp"
           width="300"
           height="157"
+          priority
         />
         <h1 className={styles.title}>Ryan</h1>
         <h2 className={styles.subtitle}>DESENVOLVEDOR FRONT-END / MOBILE</h2>

@@ -61,13 +61,13 @@ function Contact() {
             </a>
             .
           </p>
-          <label for="input_name">Nome *</label>
+          <label htmlFor="input_name">Nome *</label>
           <input id="input_name" {...register("name")} />
           <span className={styles.errorMessage}>{errors.name?.message}</span>
-          <label for="input_mail">E-mail *</label>
+          <label htmlFor="input_mail">E-mail *</label>
           <input id="input_mail" {...register("mail")} />
           <span className={styles.errorMessage}>{errors.mail?.message}</span>
-          <label for="phone_input">Telefone *</label>
+          <label htmlFor="phone_input">Telefone *</label>
           <Controller
             defaultValue=""
             name="phone"
@@ -77,7 +77,7 @@ function Contact() {
             )}
           />
           <span className={styles.errorMessage}>{errors.phone?.message}</span>
-          <label for="input_message">Mensagem *</label>
+          <label htmlFor="input_message">Mensagem *</label>
           <textarea
             id="input_message"
             rows={5}
