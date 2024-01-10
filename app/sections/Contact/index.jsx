@@ -11,8 +11,14 @@ import { useState } from "react";
 
 const schema = yup.object({
   name: yup.string().required("Preencha com seu nome!"),
-  mail: yup.string().required("Preencha com seu e-mail!"),
-  phone: yup.string().required("Preencha com seu telefone!"),
+  mail: yup
+    .string()
+    .email("E-mail inválido!")
+    .required("Preencha com seu e-mail!"),
+  phone: yup
+    .string()
+    .matches(/^\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$/, "Telefone inválido!")
+    .required("Preencha com seu telefone!"),
   message: yup.string().required("Escreva uma mensagem objetiva!"),
 });
 
