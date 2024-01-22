@@ -6,12 +6,14 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import GetIp from "./components/GetIp";
 
 export default function Home() {
   return (
     <>
       <ToastContainer theme="dark" />
       <ScrollingAnimation />
+      <GetIp />
       <Banner />
       <About />
       <Skills />
