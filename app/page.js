@@ -11,6 +11,7 @@ import GetIp from "./components/GetIp";
 export default function Home() {
   return (
     <>
+      {/* new version */}
       <ToastContainer theme="dark" />
       <ScrollingAnimation />
       <GetIp />
